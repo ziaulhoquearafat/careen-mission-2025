@@ -1,0 +1,255 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(#e6e6fa, #b8e7fa);
+}
+
+.btn {
+  background-image: linear-gradient(50deg, #ffa500, #ffd447);
+  padding: 17px 24px;
+  border: 3px solid #ffa500;
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  color: #0d1321;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px #21232760;
+}
+
+.btn:hover {
+  background: linear-gradient(#eee062, #d7f01a);
+  border: 1px solid #4686f5;
+}
+
+#header-section {
+  background-color: #ffffff60;
+  border: 1px solid #c6caff;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+}
+
+.header-content h3 {
+  color: #0d1321;
+  font-family: poppins;
+  font-size: 28;
+}
+
+.header-content span {
+  color: #ffa500;
+}
+
+#banner {
+  width: 87.5%;
+  margin: 100px auto;
+  background-color: #e6edf9;
+  border-radius: 16px;
+  text-align: center;
+  padding: 40px 60px;
+}
+
+.banner-image {
+  margin-bottom: 30px;
+}
+
+.banner-content {
+  font-family: poppins;
+}
+
+.banner-content h1 {
+  font-size: 40px;
+  line-height: 68px;
+  font-weight: ExtraBold;
+  color: #0d1321;
+  margin-bottom: 20px;
+}
+
+.banner-content p {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #0d1321;
+  margin-bottom: 30px;
+}
+
+.blog-header,
+.target-header {
+  text-align: center;
+  font-family: poppins;
+}
+
+.blog-header h2,
+.target-header h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: auto;
+  color: #0d1321;
+  margin-bottom: 25px;
+}
+
+.blog-header p,
+.target-header p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0d1321;
+  margin-bottom: 25px;
+  padding: 0px 250px;
+}
+
+#blog-banner {
+  width: 87.5%;
+  margin: 48px auto 100px auto;
+  background-color: #e6edf9;
+  border-radius: 16px;
+  padding: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.blog-content {
+  font-family: poppins;
+}
+
+.blog-content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  color: #0d132170;
+  margin-bottom: 15px;
+}
+
+.blog-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0d1321;
+  margin-bottom: 32px;
+}
+
+#inspiration-container {
+  margin-bottom: 100px;
+}
+
+.inspiration-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.inspiration-header h3 {
+  font-family: poppins;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: auto;
+  color: #0d1321;
+  margin-bottom: 15px;
+}
+
+.inspiration-header p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0d132170;
+}
+
+#inspiration-banner {
+  border: 1px solid #0d132120;
+  border-radius: 16px;
+  width: 78.57%;
+  margin: auto;
+  padding: 32px;
+  box-shadow: 1px 1px 2px #0d132120;
+}
+
+.inspiration-frame iframe {
+  border: 1px solid #0d132120;
+  border-radius: 16px;
+  width: 100%;
+  height: 556px;
+}
+
+#target {
+  width: 87.5%;
+  margin: 100px auto;
+}
+
+#icon-parent-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-box {
+  background-image: linear-gradient(#e6edf9, #9de5ff);
+  padding: 40px;
+  margin: 40px;
+  width: 364px;
+  height: 244px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 10px #0d132120;
+}
+
+.icon-box:hover {
+  background: linear-gradient(#e6edf9, #42bbe7);
+  border: 1px solid #4686f5;
+}
+
+.icon-box img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+
+.icon-box h3 {
+  font-family: poppins;
+  font-weight: 800;
+  font-size: 24px;
+  color: #0d1321;
+  line-height: 36px;
+  margin-bottom: 20px;
+}
+
+.icon-box a {
+  font-family: poppins;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #0d1321;
+  line-height: auto;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 32px 150px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-paragraph p {
+  font-family: azeret mono;
+  font-size: 20px;
+  font-weight: 600;
+  color: #0d1321;
+  line-height: auto;
+}
+
+.footer-icon img {
+  width: 36px;
+  height: 36px;
+  margin-right: 20px;
+}
