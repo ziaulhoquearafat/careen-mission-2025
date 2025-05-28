@@ -4,6 +4,10 @@
     padding: 13px 18px;
     font-size: 16px;
   }
+
+  .banner-image img {
+    width: 35%;
+  }
   .banner-content h1 {
     font-size: 40px;
     line-height: 50px;
@@ -12,17 +16,99 @@
   .target-header p {
     padding: 0px 30px;
   }
+
+  #blog-banner {
+    padding: 45px;
+    gap: 40px;
+  }
+  .blog-image {
+    width: 50%;
+  }
+  .inspiration-frame iframe {
+    height: 100%;
+  }
+
+  .inspiration-header p {
+    padding: 0px 100px;
+  }
+
+  .footer-paragraph p {
+    font-size: 15px;
+  }
+
+  .footer-icon {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-icon img {
+    width: 30px;
+    height: 30px;
+  }
 }
 
 /* tablet Device*/
 @media screen and (max-width: 1024px) {
+  .btn {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+
   .banner-content h1 {
     font-size: 30px;
     line-height: 40px;
   }
+  .blog-content h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .blog-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   .blog-header p,
   .target-header p {
     padding: 0px 30px;
+  }
+  .banner-image img {
+    width: 40%;
+  }
+  #blog-banner {
+    padding: 35px;
+  }
+  .blog-image {
+    width: 80%;
+  }
+
+  .inspiration-frame iframe {
+    height: 100%;
+  }
+
+  .inspiration-header p {
+    padding: 0px 50px;
+  }
+
+  #icon-parent-box {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .icon-box {
+    width: 100%;
+    margin: 30px auto;
+  }
+
+  footer {
+    padding: 30px 50px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 30px;
   }
 }
 
@@ -45,6 +131,11 @@
     font-size: 30px;
     line-height: 40px;
   }
+  .banner-content p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
   .blog-header h2,
   .target-header h2 {
     font-size: 25px;
@@ -60,5 +151,31 @@
     flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .blog-content h3 {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .inspiration-header p {
+    padding: 25px;
+  }
+
+  .inspiration-frame iframe {
+    height: 100%;
+  }
+
+  footer {
+    padding: 30px 30px;
+  }
+
+  .footer-content {
+    gap: 15px;
+  }
+
+  .footer-paragraph p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
